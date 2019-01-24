@@ -3,11 +3,11 @@ package discovery
 import (
 	"context"
 
-	"github.com/perlin-network/noise/dht"
-	"github.com/perlin-network/noise/internal/protobuf"
-	"github.com/perlin-network/noise/log"
-	"github.com/perlin-network/noise/network"
-	"github.com/perlin-network/noise/peer"
+	"github.com/ggoranov/noise/dht"
+	"github.com/ggoranov/noise/internal/protobuf"
+	"github.com/ggoranov/noise/log"
+	"github.com/ggoranov/noise/network"
+	"github.com/ggoranov/noise/peer"
 )
 
 type Plugin struct {

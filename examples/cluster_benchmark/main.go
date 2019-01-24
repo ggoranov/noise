@@ -10,13 +10,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/perlin-network/noise/crypto/ed25519"
-	"github.com/perlin-network/noise/examples/cluster_benchmark/messages"
-	"github.com/perlin-network/noise/log"
-	"github.com/perlin-network/noise/network"
-	"github.com/perlin-network/noise/network/backoff"
-	"github.com/perlin-network/noise/network/discovery"
-	"github.com/perlin-network/noise/types/opcode"
+	"github.com/ggoranov/noise/crypto/ed25519"
+	"github.com/ggoranov/noise/examples/cluster_benchmark/messages"
+	"github.com/ggoranov/noise/log"
+	"github.com/ggoranov/noise/network"
+	"github.com/ggoranov/noise/network/backoff"
+	"github.com/ggoranov/noise/network/discovery"
+	"github.com/ggoranov/noise/types/opcode"
 )
 
 const MESSAGE_THRESHOLD uint64 = 2000

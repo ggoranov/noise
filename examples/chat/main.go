@@ -7,12 +7,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/perlin-network/noise/crypto/ed25519"
-	"github.com/perlin-network/noise/examples/chat/messages"
-	"github.com/perlin-network/noise/log"
-	"github.com/perlin-network/noise/network"
-	"github.com/perlin-network/noise/network/discovery"
-	"github.com/perlin-network/noise/types/opcode"
+	"github.com/ggoranov/noise/crypto/ed25519"
+	"github.com/ggoranov/noise/examples/chat/messages"
+	"github.com/ggoranov/noise/log"
+	"github.com/ggoranov/noise/network"
+	"github.com/ggoranov/noise/network/discovery"
+	"github.com/ggoranov/noise/types/opcode"
 )
 
 type ChatPlugin struct{ *network.Plugin }

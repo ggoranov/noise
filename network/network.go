@@ -9,12 +9,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/perlin-network/noise/crypto"
-	"github.com/perlin-network/noise/internal/protobuf"
-	"github.com/perlin-network/noise/log"
-	"github.com/perlin-network/noise/network/transport"
-	"github.com/perlin-network/noise/peer"
-	"github.com/perlin-network/noise/types/opcode"
+	"github.com/ggoranov/noise/crypto"
+	"github.com/ggoranov/noise/internal/protobuf"
+	"github.com/ggoranov/noise/log"
+	"github.com/ggoranov/noise/network/transport"
+	"github.com/ggoranov/noise/peer"
+	"github.com/ggoranov/noise/types/opcode"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/pkg/errors"

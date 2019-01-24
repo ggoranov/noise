@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/perlin-network/noise/internal/protobuf"
-	"github.com/perlin-network/noise/peer"
+	"github.com/ggoranov/noise/internal/protobuf"
+	"github.com/ggoranov/noise/peer"
 )
 
 func TestSerializeMessageInfoForSigning(t *testing.T) {

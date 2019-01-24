@@ -4,9 +4,9 @@ import (
 	"context"
 	"net"
 
-	"github.com/perlin-network/noise/crypto"
-	"github.com/perlin-network/noise/internal/protobuf"
-	"github.com/perlin-network/noise/peer"
+	"github.com/ggoranov/noise/crypto"
+	"github.com/ggoranov/noise/internal/protobuf"
+	"github.com/ggoranov/noise/peer"
 
 	"github.com/gogo/protobuf/proto"
 )

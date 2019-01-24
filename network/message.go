@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/perlin-network/noise/peer"
+	"github.com/ggoranov/noise/peer"
 )
 
 // PluginContext provides parameters and helper functions to a Plugin

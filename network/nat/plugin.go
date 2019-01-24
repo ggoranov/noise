@@ -4,9 +4,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/perlin-network/noise/log"
-	"github.com/perlin-network/noise/network"
-	"github.com/perlin-network/noise/peer"
+	"github.com/ggoranov/noise/log"
+	"github.com/ggoranov/noise/network"
+	"github.com/ggoranov/noise/peer"
 
 	"github.com/fd/go-nat"
 )

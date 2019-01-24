@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/perlin-network/noise/crypto"
-	"github.com/perlin-network/noise/crypto/blake2b"
-	"github.com/perlin-network/noise/crypto/ed25519"
-	"github.com/perlin-network/noise/network/transport"
-	"github.com/perlin-network/noise/peer"
+	"github.com/ggoranov/noise/crypto"
+	"github.com/ggoranov/noise/crypto/blake2b"
+	"github.com/ggoranov/noise/crypto/ed25519"
+	"github.com/ggoranov/noise/network/transport"
+	"github.com/ggoranov/noise/peer"
 	"github.com/pkg/errors"
 )
 

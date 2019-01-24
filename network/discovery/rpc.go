@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/perlin-network/noise/dht"
-	"github.com/perlin-network/noise/internal/protobuf"
-	"github.com/perlin-network/noise/network"
-	"github.com/perlin-network/noise/peer"
+	"github.com/ggoranov/noise/dht"
+	"github.com/ggoranov/noise/internal/protobuf"
+	"github.com/ggoranov/noise/network"
+	"github.com/ggoranov/noise/peer"
 )
 
 func queryPeerByID(net *network.Network, peerID peer.ID, targetID peer.ID, responses chan []*protobuf.ID) {

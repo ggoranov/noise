@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	pb "github.com/perlin-network/noise/internal/protobuf"
-	"github.com/perlin-network/noise/internal/test/protobuf"
+	pb "github.com/ggoranov/noise/internal/protobuf"
+	"github.com/ggoranov/noise/internal/test/protobuf"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/assert"

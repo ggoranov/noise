@@ -4,12 +4,12 @@ import (
 	"flag"
 	"strings"
 
-	"github.com/perlin-network/noise/crypto/ed25519"
-	"github.com/perlin-network/noise/log"
-	"github.com/perlin-network/noise/network"
-	"github.com/perlin-network/noise/network/backoff"
-	"github.com/perlin-network/noise/network/discovery"
-	"github.com/perlin-network/noise/network/nat"
+	"github.com/ggoranov/noise/crypto/ed25519"
+	"github.com/ggoranov/noise/log"
+	"github.com/ggoranov/noise/network"
+	"github.com/ggoranov/noise/network/backoff"
+	"github.com/ggoranov/noise/network/discovery"
+	"github.com/ggoranov/noise/network/nat"
 )
 
 func main() {

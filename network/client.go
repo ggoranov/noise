@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/perlin-network/noise/internal/protobuf"
-	"github.com/perlin-network/noise/peer"
+	"github.com/ggoranov/noise/internal/protobuf"
+	"github.com/ggoranov/noise/peer"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/pkg/errors"

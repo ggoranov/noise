@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/perlin-network/noise/types/lru"
+	"github.com/ggoranov/noise/types/lru"
 	"github.com/pkg/errors"
 )
 

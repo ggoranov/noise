@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/perlin-network/noise/network"
-	"github.com/perlin-network/noise/network/discovery"
+	"github.com/ggoranov/noise/network"
+	"github.com/ggoranov/noise/network/discovery"
 
 	"github.com/stretchr/testify/assert"
 )
